@@ -134,6 +134,7 @@ body {
 header {
   width: auto;
   background-color: #001a00;
+  border-bottom: 5px solid #000000;
 }
 
 header div {
@@ -141,8 +142,6 @@ header div {
   justify-content: center;
   align-items: center;
   height: 15vh;
-  color: #ffffff;
-  font-size: 3rem;
   font-family: "Bungee", cursive;
   width: 100%;
 }
@@ -157,6 +156,15 @@ a {
   justify-content: left;
   width: 40%;
 }
+.title h1 {
+  font-size: 3.5rem;
+  color: #1db954;
+  text-shadow: 5px 5px #000000;
+}
+#spotify:hover {
+  color: #ffffff;
+}
+
 .headLink {
   width: 50%;
 }
@@ -168,14 +176,16 @@ nav {
 
 .headLink a {
   margin: 0 3%;
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding: 1.5%;
-  background-color: #000000;
-  border-radius: 10px;
-  /* border: 1px solid #ffffff; */
+  text-shadow: 5px 5px #000000;
+}
+.headLink a:hover {
+  color: #1db954;
 }
 
 footer div {
+  border-top: 5px solid #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -189,10 +199,9 @@ footer div {
 }
 #footLink {
   font-family: "Shanti", sans-serif;
-  border: 2px solid #ffffff;
   border-radius: 5px;
-  background-color: #00004d;
-  padding: 0.2%;
+  background-color: #000000;
+  padding: 0.75%;
 }
 
 .main {
