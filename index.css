@@ -128,14 +128,14 @@ body {
 }
 header {
   width: auto;
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
 }
 
 header div {
   background-color: #001a00;
   height: 10vh;
   text-align: center;
-  color: #afafaf;
+  color: #ffffff;
   font-size: 3.5rem;
   width: 100%;
 }
@@ -158,14 +158,35 @@ footer div {
 }
 
 .main section {
-  width: 90%;
-  border: 1px solid green;
+  width: 95%;
+  /* border: 1px solid green; */
 }
 .main div {
-  border: 1px solid crimson;
+  /* border: 1px solid crimson; */
   width: auto;
-  margin: 5% auto;
-  padding: 5%;
+  margin: 2% 1%;
+}
+.sText {
+  padding: 2%;
+  color: #afafaf;
+  font-size: 1.5rem;
+  background-color: #00001a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 35px;
+}
+.sText h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.sIMG img {
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
 }
 
 .s2 .sIMG,
