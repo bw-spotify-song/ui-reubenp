@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Shanti&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+/* font-family: 'Shanti', sans-serif; */
+/* font-family: 'Bungee', cursive; */
+
 html,
 body,
 div,
@@ -128,26 +133,66 @@ body {
 }
 header {
   width: auto;
-  /* border: 1px solid crimson; */
+  background-color: #001a00;
 }
 
 header div {
-  background-color: #001a00;
-  height: 10vh;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
   color: #ffffff;
-  font-size: 3.5rem;
+  font-size: 3rem;
+  font-family: "Bungee", cursive;
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #afafaf;
+}
+
+.title {
+  padding: 0 4%;
+  justify-content: left;
+  width: 40%;
+}
+.headLink {
+  width: 50%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headLink a {
+  margin: 0 3%;
+  font-size: 2rem;
+  padding: 1.5%;
+  background-color: #000000;
+  border-radius: 10px;
+  /* border: 1px solid #ffffff; */
+}
+
 footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #001a00;
-  height: 5vh;
+  height: 8vh;
   text-align: center;
   color: #afafaf;
   font-size: 2rem;
   width: 100%;
-  margin-top: 10rem;
+  margin-top: 5rem;
+}
+#footLink {
+  font-family: "Shanti", sans-serif;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: #00004d;
+  padding: 0.2%;
 }
 
 .main {
@@ -167,6 +212,7 @@ footer div {
   margin: 2% 1%;
 }
 .sText {
+  font-family: "Shanti", sans-serif;
   padding: 2%;
   color: #afafaf;
   font-size: 1.5rem;
