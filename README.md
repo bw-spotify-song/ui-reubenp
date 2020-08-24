@@ -1,5 +1,16 @@
 # ui-reubenp
 
+Color Scheme:
+Main Colors:
+Background: #1a1a1a
+Secondary: #001a00
+Tertiary: #00004d
+
+Fonts:
+
+Fonts - Colors:
+Main Font Color: #afafaf
+
 1: HTML / CSS
 
 HTML/CSS site is deployed. Student laid out all elements of the design.

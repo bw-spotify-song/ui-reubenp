@@ -1,0 +1,174 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: flex;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+header {
+  width: auto;
+  border: 1px solid crimson;
+}
+
+header div {
+  background-color: #001a00;
+  height: 10vh;
+  text-align: center;
+  color: #afafaf;
+  font-size: 3.5rem;
+  width: 100%;
+}
+
+footer div {
+  background-color: #001a00;
+  height: 5vh;
+  text-align: center;
+  color: #afafaf;
+  font-size: 2rem;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main section {
+  width: 90%;
+  border: 1px solid green;
+}
+.main div {
+  border: 1px solid crimson;
+  width: auto;
+  margin: 5% auto;
+  padding: 5%;
+}
+
+.s2 .sIMG,
+.s4 .sIMG {
+  order: 2;
+}
