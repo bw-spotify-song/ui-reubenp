@@ -286,8 +286,9 @@ footer div {
   padding: 0.5%;
 }
 
-.item div {
-  /* border: 1px solid blue; */
+.item {
+  display: flex;
+  align-items: center;
 }
 .aboutIMG {
   width: 15%;
@@ -305,6 +306,10 @@ footer div {
 .aboutText div {
   padding: 1%;
 }
+.aboutName {
+  width: 60%;
+  text-align: center;
+}
 .aboutGrid h3 {
   font-size: 3rem;
   font-weight: bold;
@@ -314,12 +319,38 @@ footer div {
 .aboutName p {
   text-align: center;
   border-radius: 5px;
-  padding: 1%;
-  margin-top: 10%;
+  padding: 2%;
+  width: 75%;
+  margin: 10% auto;
+  color: #ffffff;
 }
 
 .uiBox {
   background-color: blue;
+  border: 1px solid #ffffff;
+}
+.react1Box {
+  background-color: green;
+  border: 1px solid #ffffff;
+}
+.react2Box {
+  background-color: purple;
+  border: 1px solid #ffffff;
+}
+.backendBox {
+  background-color: blue;
+  border: 1px solid #ffffff;
+}
+.dataEngiBox {
+  background-color: red;
+  border: 1px solid #ffffff;
+}
+.machineBox {
+  background-color: gray;
+  border: 1px solid #ffffff;
+}
+.projLead {
+  background-color: black;
   border: 1px solid #ffffff;
 }
 .aboutGrid p {
@@ -327,4 +358,44 @@ footer div {
 }
 .aboutInfo {
   text-align: end;
+}
+
+#pos1 {
+  order: 1;
+}
+#pos2 {
+  order: 2;
+}
+#pos3 {
+  order: 3;
+}
+#pos4 {
+  order: 4;
+}
+#pos5 {
+  order: 5;
+}
+#pos6 {
+  order: 6;
+}
+#pos7 {
+  order: 7;
+}
+#pos8 {
+  order: 8;
+}
+#pos9 {
+  order: 9;
+}
+#pos10 {
+  order: 10;
+}
+#pos11 {
+  order: 11;
+}
+#pos12 {
+  order: 12;
+}
+#pos13 {
+  order: 13;
 }
